@@ -1,0 +1,40 @@
+{
+  "atividade_principal": [
+    {
+      "text": "Atividades de contabilidade",
+      "code": "69.20-6-01"
+    }
+  ],
+  "data_situacao": "09/11/2015",
+  "nome": "MURILO GOMES TEIXEIRA 47009796823",
+  "uf": "SP",
+  "telefone": "(12) 9972-6834",
+  "email": "murilo@gtcontabilidade.com",
+  "atividades_secundarias": [
+    {
+      "text": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar",
+      "code": "56.20-1-04"
+    }
+  ],
+  "qsa": [],
+  "situacao": "ATIVA",
+  "bairro": "SERTAO DA QUINA",
+  "logradouro": "TV FUJIO IWAI",
+  "numero": "95",
+  "cep": "11.680-000",
+  "municipio": "UBATUBA",
+  "abertura": "09/11/2015",
+  "natureza_juridica": "213-5 - Empresário (Individual)",
+  "fantasia": "GT CONTABILIDADE & TECNOLOGIA",
+  "cnpj": "23.629.677/0001-99",
+  "ultima_atualizacao": "2017-10-16T02:10:14.217Z",
+  "status": "OK",
+  "tipo": "MATRIZ",
+  "complemento": "",
+  "efr": "",
+  "motivo_situacao": "",
+  "situacao_especial": "",
+  "data_situacao_especial": "",
+  "capital_social": "1000.00",
+  "extra": {}
+}
