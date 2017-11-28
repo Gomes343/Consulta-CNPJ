@@ -12,9 +12,7 @@ public class Main{
         
         //Arquivo DownloadCartao.java
         //faz o download json do arquivo 
-        
-        
-        
+
         System.out.println("Insira o CNPJ que gostaria de consultar: (14 digitos)");
         CNPJ = sc.nextLine();
         link = link.concat(CNPJ);
