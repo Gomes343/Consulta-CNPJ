@@ -1,40 +1,481 @@
 {
   "atividade_principal": [
     {
-      "text": "Atividades de contabilidade",
-      "code": "69.20-6-01"
+      "text": "Bancos múltiplos, com carteira comercial",
+      "code": "64.22-1-00"
     }
   ],
-  "data_situacao": "09/11/2015",
-  "nome": "MURILO GOMES TEIXEIRA 47009796823",
+  "data_situacao": "03/11/2005",
+  "complemento": "TORRE OLAVO SETUBAL",
+  "nome": "ITAU UNIBANCO S.A.",
   "uf": "SP",
-  "telefone": "(12) 9972-6834",
-  "email": "murilo@gtcontabilidade.com",
-  "atividades_secundarias": [
+  "telefone": "(11) 5019-8233",
+  "email": "unidadedeatendimentoafiscalizacao@correio.itau.com.br",
+  "qsa": [
     {
-      "text": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar",
-      "code": "56.20-1-04"
+      "qual": "10-Diretor",
+      "nome": "JOAO ANTONIO DANTAS BEZERRA LEITE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CESAR PADOVAN"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RICARDO VILLELA MARINO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CICERO MARCUS DE ARAUJO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CARLOS EDUARDO MONICO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CRISTIANE MAGALHAES TEIXEIRA PORTELLA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FERNANDO MARSELLA CHACON RUIZ"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCO ANTONIO SUDANO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDREA MATTEUCCI PINOTTI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CARLOS HENRIQUE DONEGA AIDAR"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIS EDUARDO GROSS SIQUEIRA CUNHA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RICARDO RIBEIRO MANDACARU GUERRA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CLAUDIA POLITANSKI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "SERGIO GUILLINET FAJERMAN"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCIO DE ANDRADE SCHETTINI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDRE SAPOZNIK"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CLAUDIO CESAR SANCHES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CLAUDIO JOSE COUTINHO ARROMATTE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "JORGE LUIZ VIEGAS RAMALHO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LEILA CRISTIANE BARBOZA BRAGA DE MELO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIS TADEU MANTOVANI SASSI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIZ EDUARDO LOUREIRO VELOSO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCELO LUIS ORTICELLI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCOS ANTONIO VAZ DE MAGALHAES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FERNANDO DELLA TORRE CHAGAS"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CAIO IBRAHIM DAVID"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RICARDO URQUIJO LAZCANO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EDILSON PEREIRA JARDIM"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "HENRIQUE PINTO ECHENIQUE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RODRIGO LUIS ROSA COUTO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MESSIAS DOS SANTOS ESTEVES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CINTIA CARBONIERI FLEURY DE CAMARGO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIZ FERNANDO BUTORI REIS SANTOS"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ALBERTO FERNANDES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CARLOS ORESTES VANZO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "JOSE VIRGILIO VITA NETO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIZ SEVERIANO RIBEIRO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ROBERTO FERNANDO VICENTE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "WAGNER BETTINI SANCHES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ADRIANO CABRAL VOLPINI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FRANCISCO VIEIRA CORDEIRO NETO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FLAVIO AUGUSTO AGUIAR DE SOUZA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FERNANDO BARCANTE TOSTES MALTA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EDUARDO MAZZILLI DE VASSIMON"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIS FERNANDO STAUB"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FABIANA PASCON BASTOS"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FERNANDO MATTAR BEYRUTI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCELLO SINISCALCHI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ALEXSANDRO BROEDEL LOPES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FLAVIO DELFINO JUNIOR"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LEON GOTTLIEB"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CESAR MING PEREIRA DA SILVA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDRE CARVALHO WHYTE GAILEY"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDRE LUIS TEIXEIRA RODRIGUES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CHRISTIAN GEORGE EGAN"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "JOAO MARCOS PEQUENO DE BIASE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ADRIANO MACIEL PEDROTI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CRISTIANO ROGERIO CAGNE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EDUARDO CARDOSO ARMONIA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EDUARDO CORSETTI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ELAINE CRISTINA ZANATTA RODRIGUES VASQUINHO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EMERSON SAVI JUNQUEIRA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "GILBERTO FRUSSA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LUIZ FELIPE MONTEIRO ARCURI TREVISAN"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCELO KOPEL"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARCIO LUIS DOMINGUES DA SILVA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARIO LUCIO GURGEL PIRES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MATIAS GRANATA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "PEDRO BARROS BARRETO FERNANDES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RICARDO NUNO DELGADO GONCALVES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "THALES FERREIRA SILVA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "VANESSA LOPES REISNER"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LAILA REGINA DE OLIVEIRA PENA DE ANTONIO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LINEU CARLOS FERRAZ DE ANDRADE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ALVARO FELIPE RIZZI RODRIGUES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "THIAGO LUIZ CHARNET ELLERO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FERNANDO JULIAO DE SOUZA AMARAL"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDRE HENRIQUE CALDEIRA DARE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "GUSTAVO TROVISCO LOPES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RODRIGO RODRIGUES BAIA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ATILIO LUIZ MAGILA ALBIERO JUNIOR"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FABIANO MEIRA DOURADO NUNES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "LIVIA MARTINES CHANES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "GABRIELA RODRIGUES FERREIRA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "SERGIO MYCHKIS GOLDSTEIN"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FLAVIO RIBEIRO IGLESIAS"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ESTEVAO CARCIOFFI LAZANHA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FELIPE DE SOUZA WEY"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RODRIGO JORGE DANTAS DE OLIVEIRA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RODNEI BERNARDINO DE SOUZA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "BADI MAANI SHAIKHZADEH"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "JOSE DE CASTRO ARAUJO RUDGE FILHO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ROBERTO TEIXEIRA DE CAMARGO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MARIO MAGALHAES CARVALHO MESQUITA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "FELIPE WEIL WILBERG"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CRISTIANO GUIMARAES DUARTE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ERIC ANDRE ALTAFIM"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "VALERIA APARECIDA MARRETTO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ALESSANDRO ANASTASI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANA LUCIA GOMES DE SA DRUMOND PARDO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANGELO RUSSOMANNO FERNANDES"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "EDUARDO HIROYUKI MIYAKI"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "GABRIEL GUEDES PINTO TEIXEIRA"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "RODRIGO ANDRE LEIRAS CARNEIRO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "TATIANA GRECCO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDRE BALESTRIN CESTARE"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ANDREA CARPES BLANCO"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "ADRIANA MARIA DOS SANTOS"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "CARLOS EDUARDO MORI PEYSER"
+    },
+    {
+      "qual": "10-Diretor",
+      "nome": "MANOELA VARANDA"
     }
   ],
-  "qsa": [],
   "situacao": "ATIVA",
-  "bairro": "SERTAO DA QUINA",
-  "logradouro": "TV FUJIO IWAI",
-  "numero": "95",
-  "cep": "11.680-000",
-  "municipio": "UBATUBA",
-  "abertura": "09/11/2015",
-  "natureza_juridica": "213-5 - Empresário (Individual)",
-  "fantasia": "GT CONTABILIDADE & TECNOLOGIA",
-  "cnpj": "23.629.677/0001-99",
-  "ultima_atualizacao": "2017-10-16T02:10:14.217Z",
+  "bairro": "PARQUE JABAQUARA",
+  "logradouro": "PC ALFREDO EGYDIO DE SOUZA ARANHA 100",
+  "numero": ".",
+  "cep": "04.344-902",
+  "municipio": "SAO PAULO",
+  "abertura": "22/08/1944",
+  "natureza_juridica": "205-4 - Sociedade Anônima Fechada",
+  "fantasia": "EST UNIF",
+  "cnpj": "60.701.190/0001-04",
+  "ultima_atualizacao": "2017-11-22T17:39:15.608Z",
   "status": "OK",
   "tipo": "MATRIZ",
-  "complemento": "",
   "efr": "",
   "motivo_situacao": "",
   "situacao_especial": "",
   "data_situacao_especial": "",
-  "capital_social": "1000.00",
+  "atividades_secundarias": [
+    {
+      "code": "00.00-0-00",
+      "text": "Não informada"
+    }
+  ],
+  "capital_social": "47425425433.32",
   "extra": {}
 }

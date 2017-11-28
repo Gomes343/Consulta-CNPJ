@@ -12,7 +12,7 @@ public class DownloadCartao {
     public static void main(String[]args) throws IOException{   
         
         //arquivos InputStream ou OutputStream funcionam igual a Reader e Writer
-        URL url = new URL("http://receitaws.com.br/v1/cnpj/23629677000199"); // LINK
+        URL url = new URL("http://receitaws.com.br/v1/cnpj/60701190000104"); // LINK
         URLConnection connection = url.openConnection(); // realizando a conexão com a URL
         InputStream stream = connection.getInputStream();// leitura do fluxo de dados da fonte
         
