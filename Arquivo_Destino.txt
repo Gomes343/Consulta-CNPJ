@@ -1,8 +1,0 @@
-sun.net.www.protocol.http.HttpURLConnection$HttpInputStream@214c265e
-https://www.devmedia.com.br/leitura-e-escrita-de-arquivos-json-em-java/27663
-
-https://stackoverflow.com/questions/18831948/how-parsing-jsonarray-in-java-with-json-simple
-
-https://stackoverflow.com/questions/33365983/using-json-simple-to-create-objects-and-arrays-with-key-and-value
-
-http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm

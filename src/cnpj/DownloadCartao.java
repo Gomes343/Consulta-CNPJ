@@ -7,12 +7,20 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Scanner;
 
-public class DownloadCartao {
+public class DownloadCartao{
     public static void main(String[]args) throws IOException{   
+        Scanner sc = new Scanner(System.in);
+        String link = "http://receitaws.com.br/v1/cnpj/", CNPJ, linha = "";
+        
+        System.out.println("Insira o CNPJ que gostaria de baixar: (14 digitos)");
+        CNPJ = sc.nextLine();
+        link = link.concat(CNPJ);
         
         //arquivos InputStream ou OutputStream funcionam igual a Reader e Writer
-        URL url = new URL("http://receitaws.com.br/v1/cnpj/60701190000104"); // LINK
+        URL url = new URL(link);
+        
         URLConnection connection = url.openConnection(); // realizando a conexão com a URL
         InputStream stream = connection.getInputStream();// leitura do fluxo de dados da fonte
         
@@ -25,7 +33,7 @@ public class DownloadCartao {
         while((i = in.read()) != -1){
             out.write(i);
         }
-        
         out.flush();
+        System.out.println("Arquivo CartaoCNPJ.json baixado!");
     }
 }

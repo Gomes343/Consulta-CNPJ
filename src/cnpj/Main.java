@@ -5,14 +5,18 @@ import java.net.*;
 import java.io.*;
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void main(String[]args) throws Exception {
         Scanner sc = new Scanner(System.in);
         String CNPJ, link = "http://receitaws.com.br/v1/cnpj/", linha = "";
         
+        //Arquivo DownloadCartao.java
+        //faz o download json do arquivo 
+        
+        
+        
         System.out.println("Insira o CNPJ que gostaria de consultar: (14 digitos)");
         CNPJ = sc.nextLine();
-        
         link = link.concat(CNPJ);
         URL url = new URL(link);
         URLConnection yc = url.openConnection();
