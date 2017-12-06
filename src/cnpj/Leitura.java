@@ -36,8 +36,7 @@ public class Leitura {
 			System.out.printf("Nome: %s \n"
                                         + "Situação: %s\n"
                                         + "Estado: %s\n"
-                                        + "Cidade: %s\n",nome, situacao, uf, municipio);
-		} 
+                                        + "Cidade: %s\n",nome, situacao, uf, municipio);} 
                 
                 
                 

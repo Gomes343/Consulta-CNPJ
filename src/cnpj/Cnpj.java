@@ -20,7 +20,7 @@ public class Cnpj {
         System.out.println(linha);
         linha = in.readLine();
         }
-
+ 
         in.close();
 
     }

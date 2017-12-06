@@ -1,25 +1,29 @@
-package cnpj;
+package mvc.control;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class DownloadCartao{
-    public static void main(String[]args) throws IOException{   
-        Scanner sc = new Scanner(System.in);
-        String link = "http://receitaws.com.br/v1/cnpj/", CNPJ, linha = "";
+   
+    public int baixarCartao(String CNPJ){
+        String link = "http://receitaws.com.br/v1/cnpj/";
         
-        System.out.println("Insira o CNPJ que gostaria de baixar: (14 digitos)");
-        CNPJ = sc.nextLine();
-        link = link.concat(CNPJ);
-        
-        //arquivos InputStream ou OutputStream funcionam igual a Reader e Writer
-        URL url = new URL(link);
+        if(CNPJ.length() < 14){
+            System.out.println("(!) ERRO (!) CNPJ Inferior ao desejado");
+            return 0;
+        }
+        else
+            link = link.concat(CNPJ);
+       
+        try{URL url = new URL(link);
         
         URLConnection connection = url.openConnection(); // realizando a conexão com a URL
         InputStream stream = connection.getInputStream();// leitura do fluxo de dados da fonte
@@ -34,6 +38,18 @@ public class DownloadCartao{
             out.write(i);
         }
         out.flush();
+        
+        } catch (MalformedURLException ex) {
+            System.out.println("URL MALFORMADA");
+            Logger.getLogger(DownloadCartao.class.getName()).log(Level.SEVERE, null, ex);
+            return 2;
+        } catch (IOException ex) {
+            System.out.println("ERRO DE CONEXAO?");
+            Logger.getLogger(DownloadCartao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
         System.out.println("Arquivo CartaoCNPJ.json baixado!");
+  
+        return true;
     }
 }
