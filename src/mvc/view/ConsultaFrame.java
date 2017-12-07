@@ -75,18 +75,21 @@ public class ConsultaFrame extends javax.swing.JFrame {
     private void consultButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consultButtonActionPerformed
  
         String CNPJ = fieldCNPJ.getText();
-
+        int v = 0;
+        
         if(control.baixarCartao(CNPJ)==1){
+            v = control.baixarCartao(CNPJ);
             this.dispose();
         }else{
-            switch (control.baixarCartao(CNPJ)){
+            switch (v){
                 case 0:
+                    this.dispose();
                     
-                
-            }
-            
-        }
+                    ErroFrame erro = new ErroFrame();
+                    erro.setVisible(true);
 
+            }
+        }
     }//GEN-LAST:event_consultButtonActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

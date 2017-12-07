@@ -49,7 +49,7 @@ public class DownloadCartao{
         }
         
         System.out.println("Arquivo CartaoCNPJ.json baixado!");
+        return 1;
   
-        return true;
     }
 }

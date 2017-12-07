@@ -8,10 +8,12 @@ import mvc.view.ConsultaFrame;
  */
 public class Main {
     public static void main(String[]args){
-       
+
         ConsultaFrame consulta = new ConsultaFrame();
         
         consulta.setVisible(true);
+        
+        
         
     }
 }
