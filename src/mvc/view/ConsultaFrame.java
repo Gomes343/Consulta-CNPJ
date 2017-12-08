@@ -84,7 +84,6 @@ public class ConsultaFrame extends javax.swing.JFrame {
             switch (v){
                 case 0:
                     this.dispose();
-                    
                     ErroFrame erro = new ErroFrame();
                     erro.setVisible(true);
 

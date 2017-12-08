@@ -5,13 +5,14 @@
  */
 package mvc.control;
 
+import mvc.view.BaixadoFrame;
 import mvc.view.ConsultaFrame;
 
 /**
  *
  * @author Gomes
  */
-public class RetornoControl {
+public class JanelasControl {
     
     public Boolean voltar(){
         
@@ -19,6 +20,12 @@ public class RetornoControl {
         volta.setVisible(true);
         
         return true;
+    }
+    
+    public Boolean baixado(){
+        
+        BaixadoFrame baixado = new BaixadoFrame();
+        baixado.setVisible(true);
     }
     
     

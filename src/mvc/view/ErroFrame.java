@@ -5,7 +5,7 @@
  */
 package mvc.view;
 
-import mvc.control.RetornoControl;
+import mvc.control.JanelasControl;
 
 /**
  *
@@ -99,7 +99,7 @@ public class ErroFrame extends javax.swing.JFrame {
 
     private void voltarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_voltarButtonActionPerformed
         
-        RetornoControl retorno = new RetornoControl();
+        JanelasControl retorno = new JanelasControl();
         
         retorno.voltar();
         

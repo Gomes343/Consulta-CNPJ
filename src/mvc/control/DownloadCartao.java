@@ -10,6 +10,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import mvc.control.JanelasControl;
 
 public class DownloadCartao{
    
@@ -17,9 +18,9 @@ public class DownloadCartao{
         String link = "http://receitaws.com.br/v1/cnpj/";
         
         if(CNPJ.length() < 14){
-            System.out.println("(!) ERRO (!) CNPJ Inferior ao desejado");
             return 0;
         }
+        
         else
             link = link.concat(CNPJ);
        
@@ -48,7 +49,9 @@ public class DownloadCartao{
             Logger.getLogger(DownloadCartao.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        System.out.println("Arquivo CartaoCNPJ.json baixado!");
+        JanelasControl janela = new JanelasControl();
+        
+        
         return 1;
   
     }
