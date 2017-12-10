@@ -26,6 +26,8 @@ public class JanelasControl {
         
         BaixadoFrame baixado = new BaixadoFrame();
         baixado.setVisible(true);
+        
+        return true;
     }
     
     

@@ -12,8 +12,6 @@ public class Main {
         ConsultaFrame consulta = new ConsultaFrame();
         
         consulta.setVisible(true);
-        
-        
-        
+
     }
 }
