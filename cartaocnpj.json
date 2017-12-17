@@ -1,8 +1,8 @@
 {
   "atividade_principal": [
     {
-      "text": "Atividades de contabilidade",
-      "code": "69.20-6-01"
+      "text": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar",
+      "code": "56.20-1-04"
     }
   ],
   "data_situacao": "09/11/2015",
@@ -12,8 +12,8 @@
   "email": "murilo@gtcontabilidade.com",
   "atividades_secundarias": [
     {
-      "text": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar",
-      "code": "56.20-1-04"
+      "text": "Atividades de contabilidade",
+      "code": "69.20-6-01"
     }
   ],
   "qsa": [],
@@ -27,7 +27,7 @@
   "natureza_juridica": "213-5 - Empresário (Individual)",
   "fantasia": "GT CONTABILIDADE & TECNOLOGIA",
   "cnpj": "23.629.677/0001-99",
-  "ultima_atualizacao": "2017-10-16T02:10:14.217Z",
+  "ultima_atualizacao": "2017-12-16T08:51:39.916Z",
   "status": "OK",
   "tipo": "MATRIZ",
   "complemento": "",

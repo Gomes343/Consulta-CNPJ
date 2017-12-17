@@ -29,7 +29,5 @@ public class JanelasControl {
         
         return true;
     }
-    
-    
-    
+
 }

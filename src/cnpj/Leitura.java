@@ -27,6 +27,9 @@ public class Leitura {
 	//Salva no oabjeto JSONObject o que o parse tratou do arquivo
         JSONObject obj = (JSONObject) parser.parse(new FileReader("cartaocnpj.json"));
  
+        ControllerTeste t = new ControllerTeste();
+
+
         JSONObject jsonObject = (JSONObject) obj;
 
 			

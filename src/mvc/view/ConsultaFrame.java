@@ -5,13 +5,16 @@
  */
 package mvc.view;
 import mvc.control.DownloadCartao;
+import mvc.control.JanelasControl;
 /**
  *
  * @author a1700677
  */
 public class ConsultaFrame extends javax.swing.JFrame {
 
-    DownloadCartao control = new DownloadCartao();
+    DownloadCartao baixar = new DownloadCartao();
+    JanelasControl control = new JanelasControl();
+    
     
     public ConsultaFrame() {
         initComponents();
@@ -77,18 +80,16 @@ public class ConsultaFrame extends javax.swing.JFrame {
         String CNPJ = fieldCNPJ.getText();
         int v = 0;
         
-        if(control.baixarCartao(CNPJ)==1){
-            v = control.baixarCartao(CNPJ);
-            this.dispose();
-        }else{
+            v = baixar.baixarCartao(CNPJ);
             switch (v){
                 case 0:
                     this.dispose();
                     ErroFrame erro = new ErroFrame();
                     erro.setVisible(true);
-
+                case 1:
+                    this.dispose();
+                    control.baixado();
             }
-        }
     }//GEN-LAST:event_consultButtonActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

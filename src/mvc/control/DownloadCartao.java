@@ -49,9 +49,8 @@ public class DownloadCartao{
             Logger.getLogger(DownloadCartao.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        JanelasControl janela = new JanelasControl();
-        
-        
+        //JanelasControl janela = new JanelasControl();
+
         return 1;
   
     }
