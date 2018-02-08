@@ -1,33 +1,50 @@
 {
   "atividade_principal": [
     {
-      "text": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar",
-      "code": "56.20-1-04"
+      "text": "Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras",
+      "code": "23.91-5-03"
     }
   ],
-  "data_situacao": "09/11/2015",
-  "nome": "MURILO GOMES TEIXEIRA 47009796823",
+  "data_situacao": "08/02/2012",
+  "nome": "M P M COMERCIO DE MARMORES E GRANITOS LTDA - ME",
   "uf": "SP",
-  "telefone": "(12) 9972-6834",
-  "email": "murilo@gtcontabilidade.com",
+  "telefone": "(12) 3832-3161 / (12) 3832-6074",
+  "email": "contato@escritorioexata.com.br",
   "atividades_secundarias": [
     {
-      "text": "Atividades de contabilidade",
-      "code": "69.20-6-01"
+      "text": "Construção de edifícios",
+      "code": "41.20-4-00"
+    },
+    {
+      "text": "Comércio varejista de vidros",
+      "code": "47.43-1-00"
+    },
+    {
+      "text": "Comércio varejista de materiais de construção não especificados anteriormente",
+      "code": "47.44-0-05"
     }
   ],
-  "qsa": [],
+  "qsa": [
+    {
+      "qual": "49-Sócio-Administrador",
+      "nome": "MICHAEL SOUSA DOS SANTOS"
+    },
+    {
+      "qual": "49-Sócio-Administrador",
+      "nome": "MARCELO SOUSA DOS SANTOS"
+    }
+  ],
   "situacao": "ATIVA",
-  "bairro": "SERTAO DA QUINA",
-  "logradouro": "TV FUJIO IWAI",
-  "numero": "95",
+  "bairro": "MATO DENTRO",
+  "logradouro": "ROD OSWALDO CRUZ",
+  "numero": "2460",
   "cep": "11.680-000",
   "municipio": "UBATUBA",
-  "abertura": "09/11/2015",
-  "natureza_juridica": "213-5 - Empresário (Individual)",
-  "fantasia": "GT CONTABILIDADE & TECNOLOGIA",
-  "cnpj": "23.629.677/0001-99",
-  "ultima_atualizacao": "2017-12-16T08:51:39.916Z",
+  "abertura": "08/02/2012",
+  "natureza_juridica": "206-2 - Sociedade Empresária Limitada",
+  "fantasia": "CRIATIVA MARMORES E GRANITOS",
+  "cnpj": "15.057.343/0001-60",
+  "ultima_atualizacao": "2018-01-20T15:51:04.363Z",
   "status": "OK",
   "tipo": "MATRIZ",
   "complemento": "",
@@ -35,6 +52,6 @@
   "motivo_situacao": "",
   "situacao_especial": "",
   "data_situacao_especial": "",
-  "capital_social": "1000.00",
+  "capital_social": "30000.00",
   "extra": {}
 }

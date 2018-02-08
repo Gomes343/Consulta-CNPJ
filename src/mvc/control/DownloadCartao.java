@@ -19,9 +19,8 @@ public class DownloadCartao{
         
         if(CNPJ.length() < 14){
             return 0;
-        }
-        
-        else
+        }else
+            
             link = link.concat(CNPJ);
        
         try{URL url = new URL(link);
