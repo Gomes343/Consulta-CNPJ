@@ -44,9 +44,7 @@ public class Inicio {
             
         }
     
-        
-        
-        
+
         String nome = (String) json.get("nome");  
         String fantasia = (String) json.get("fantasia");
         String cnpj = (String) json.get("cnpj");
@@ -64,15 +62,10 @@ public class Inicio {
         String telefone = (String) json.get("telefone");
         String situacao = (String) json.get("situacao");
         String atualizacao = (String) json.get("ultima_atualizacao");
-        
-        
-        
-        
-        
-        
+
         
         //IMPRIMINDO OS DADOS  
-        System.out.println("CNPJ: "+cnpj+"   Data de Abertura: "+abertura+"\n"
+        System.out.println("CNPJ: "+cnpj+"  Data de Abertura: "+abertura+"\n"
                         +   "Nome Empresarial: "+nome+"\n"
                         +   "Nome Fantasia: "+fantasia+"\n"
                         +   "Descrição Atividade Principal: \n"
@@ -92,16 +85,6 @@ public class Inicio {
                         +   "\n"
                         +   "Situação: "+situacao+" Atualização em: "+atualizacao);
 
-        
-        /*
-        String array1 = catch1.toString();
-        JSONArray chose1 = new JSONArray(array1);
-        JSONObject test = chose1.getJSONObject(0);
-        String test1 = test.toString();
-        System.out.println(test1);
-        JSONObject cacete = new JSONObject(test1);
-        String text = (String) cacete.get("text");
-        */
         
   
     }
